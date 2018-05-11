@@ -10,7 +10,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 $ligne = 1; // compteur de ligne
-$fic = fopen("Questionnaires\systeme expert stop trauma .csv", "r");
+$fic = fopen("Questionnaires/systeme expert stop trauma .csv", "r");
 while($tab=fgetcsv($fic,1024,';'))
 {
 	$champs = count($tab);//nombre de champ dans la ligne en question	
