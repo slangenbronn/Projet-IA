@@ -1,0 +1,96 @@
+Informations générales;Titre
+Commentaires;NonAnalyse et stratégie;Propositions
+Nom;Text
+Prénom;Text
+Âge;Text
+Profession ;Text
+Choix de ton problème (Si tu as plusieurs troubles, choisis celui qui est le plus important pour toi aujourd’hui);Choix;;peurs / angoisses;douleurs;stress / fatigue / troubles de l’attention;traumatismes / séparation / deuil;dépression / solitude;manque de confiance;addiction / tabac;troubles alimentaires / perte de poids / troubles digestif;troubles du sommeil;troubles cutanés;phobies 
+Depuis combien de temps date ton problème?;Choix;; 0 à 5 ans;5 à 10 ans ;10 à 15 ans ;15 à 20 ans;20 à 25 ans ;plus de 25 ans 
+Quel âge avais-tu à ce moment-là ?;Choix;Fournir questionnaire spécifique en fonction de la période donnée;0 à 10 ans;10 à 20 ans;20 à 30 ans;30 à 60 ans ;60 ans et plus
+suite générale ;Non
+analyse systémique ;Titre
+À cette période où tout a commencé…;Non;Si oui : questions 15, 16, 17, 19, 20, 21. Si non : questions 18, 19
+Es-tu en couple ?;Choix;;oui;non 
+Si oui, quel est son prénom ?;Text
+Si tu devais évaluer la qualité de ta relation amoureuse à ce moment-là sur 10, en sachant que 0 = relation toxique et 10 = relation parfaite, combien lui mettrais-tu ? ;Choix;Si résultat 0, 1, 2 ou 3, récupérer prénom en ligne 15 (fille ou garçon) comme mot clef et fournir le questionnaire spécifique relation de couple;0;1;2;3;4;5;6;7;8;9;10
+Entre 0 et 10, en sachant que 0 est nul et que 10 est parfait. Quelle note mettez-vous au comportement de votre conjoint par rapport à vous ?;Choix; Si 0, 1, 2 ou 3, récupérer le prénom correspondant L16 et fournir le questionnaire spécifique relation de couple ;0;1;2;3;4;5;6;7;8;9;10
+Si non, étais-tu dans une période de séparation ou de divorce ? ;Choix;Si oui, récupérer le prénom et fournir questionnaire spécifique séparation/divorce;oui ;non
+Si non, comment vivais-tu ton célibat ?;Choix;Si mal ou plutôt mal questionnaire spécifique célibat/solitude ;bien ;plutôt bien;plutôt mal;mal
+Était-il/elle malade ? Est-il mort autour de cette période ?;Choix;Si oui, récupérer prénom du conjoint L16 et fournir questionnaire spécifique mort/malade ;oui;non
+Êtes-vous épanoui sexuellement ?;Choix;Si non ou plutôt non, fournir questionnaire spécifique sexualité ;non;plutôt non;plutôt oui ;oui 
+À cette période où tout a commencé…;Non
+Comment appelles-tu ton père ?;Choix;il est mort;je ne l’ai jamais connu ;papa;dada;père;le daron;daddy;dad;papou;autre
+Si autre, quel est son prénom ?;Text
+Si tu ne l’as jamais connu, es-tu en paix avec cela ?;Choix; Si non, fournir questionnaire « enfant abandonné » et récupérer le mot clef (L26 sauf si choisi en 26 « autre » alors prendre réponse en ligne 27 (le prénom) pour mot clef;oui ;non
+Ton père était ?;Choix;Si mort ou malade, fournir questionnaire spécifique « mort/malade »;vivant;mort;malade
+Si tu devais évaluer la qualité de ta relation avec ton père entre 0 et 10, 0 étant catastrophique et 10 étant excellente, quelle note mettrais-tu à cette relation ?;Choix;si 0, 1, 2 ou 3, récupérer l’appellation correspondante (L26 ou 27 si choisi mort ou autre ou pas connu) et fournir le questionnaire spécifique relation père;0;1;2;3;4;5;6;7;8;9;10
+Entre 0 et 10, en sachant que 0 est nul et que 10 est parfait. Quelle note mettez-vous au comportement de votre père par rapport à vous ?;Choix; si 0, 1, 2 ou 3, récupérer le prénom correspondant (L26, 27) et fournir le questionnaire spécifique relation père;0;1;2;3;4;5;6;7;8;9;10
+Au moment où tout a commencé…;Non
+Comment appelais-tu ta mère ?;Choix;;maman;maz;mère;mamounette;mamoune;mum;autres;je ne l'ai jamais connu 
+Si autre, quel est le prénom de ta mère ?;Text
+Si tu ne l'as jamais connue, es-tu en paix avec cela ? ;Choix;Si non, fournir questionnaire « enfant abandonné » et récupérer mot clef ligne 34 sauf si choisi autre alors récupérer L35 ;oui;non
+Ta mère était ;Choix;Si mort ou malade, récupérer le mot clef L34 ou L35, si réponse autre ou jamais connue en L30;morte;malade;vivante
+Si tu devais évaluer la qualité de ta relation avec ta mère entre 0 et 10, 0 étant catastrophique et 10 étant excellente, quelle note mettrais-tu à cette relation ?;Choix;Si 0, 1, 2 ou 3, récupérer l’appellation correspondante (L30 ou 31 si choisi mort ou autre ou pas connu) et fournir le questionnaire spécifique relation mère;0;1;2;3;4;5;6;7;8;9;10
+Entre 0 et 10, en sachant que 0 est nul et que 10 est parfait. Quelle note mettez-vous au comportement de votre mère par rapport à vous ?;Choix; Si 0, 1, 2 ou 3, récupérer le prénom correspondant (L35, 36) et fournir le questionnaire spécifique relation mère ;0;1;2;3;4;5;6;7;8;9;10
+À ce moment-là, tes parents sont;Choix; Si réponse D, E ou F alors fournir questionnaire spécifique divorce / séparation / dispute des parents;séparés;divorcés;se disputent;tout va bien 
+Si tu devais évaluer la qualité de leur relation entre 0 et 10, 0 étant catastrophique et 10 étant excellente, quelle note mettrais-tu à la relation de tes parents ?;Choix; Si 0, 1, 2 ou 3 alors fournir questionnaire spécifique divorce / séparation / disputes;0;1;2;3;4;5;6;7;8;9;10
+À ta naissance…;Choix;Si réponse F ou G alors récupérer F ou G en mot clef et ajouter questionnaire spécifique grossesse non désirée ;j’étais désiré;je suis la belle surprise;je suis un accident;on ne voulait pas de moi
+Au moment où tout a commencé;Non
+Tes grands-parents étaient…;Non
+Grand-père maternel;Choix;Si réponse E ou F alors rajouter question ligne 53 ;vivant;mort;malade
+Grand-mère maternelle;Choix;Si réponse E ou F alors rajouter question ligne 53 ;vivant ;mort;malade
+Grand-père paternel;Choix;Si réponse E ou F alors rajouter question ligne 53 ;vivant;mort ;malade
+Grand-mère paternelle;Choix;Si réponse E ou F alors rajouter question ligne 53 ;vivant ;mort;malade
+Es-tu en paix avec leur maladie / leur mort ?;Choix; Si non, ajouter questionnaire mort / malade et récupérer les appellations correspondantes en mot clef ligne suivante (L54);oui;non
+Comment l’appelais-tu ?;Choix; Si autre, question suivante;papy;mamie;grand-père;grand-mère;pépère;mémère;bonne maman ;o’pa;o’ma ;jid;jida;pépé;mémé;autre
+Quel est son prénom ?;Text;
+liste prénoms de garçon;liste prénoms de filleTa famille ;Non
+As-tu des frères ? Non;
+Si oui, quels sont leurs prénoms ? Si pas assez de place, marque ceux qui sont les plus proches ou les plus éloignés de toi; Non
+Frère 1;Text
+Frère 2;Text
+Frère 3;Text
+Frère 4;Text
+Frère 5;Text
+Frère 6;Text
+Si tu devais évaluer la qualité de ta relation avec tes frères en sachant que 0 est mauvais et 10 est excellent, quelle note mettrais-tu ? ;Non
+Frère 1 ;Choix;Si résultat 0, 1, 2 ou 3, récupérer le prénom en D61 comme mot clef et fournir questionnaire spécifique relation frère sœur;0;1;2;3;4;5;6;7;8;9;10
+Frère 2;Choix;Si résultat 0, 1, 2 ou 3, récupérer le prénom en D62 comme mot clef et fournir questionnaire spécifique relation frère sœur;0;1;2;3;4;5;6;7;8;9;10
+As-tu des soeurs ? Si oui, quels sont leurs prénoms ? Si pas assez de place, marque ceux qui sont les plus proches ou les plus éloignés de toi;Non
+Soeur 1;Text
+Soeur 2;Text
+Soeur 3;Text
+Soeur 4;Text
+Soeur 5;Text
+Soeur 6 ;Text
+Si tu devais évaluer la qualité de ta relation avec tes frères en sachant que 0 est mauvais et 10 est excellent, quelle note mettrais-tu ? ;Non
+Soeur 1;Choix;Si résultat 0, 1, 2 ou 3, récupérer le prénom en D61 comme mot clef et fournir questionnaire spécifique relation frère sœur;0;1;2;3;4;5;6;7;8;9;10
+Soeur 2;Choix;Si résultat 0, 1, 2 ou 3, récupérer le prénom en D62 comme mot clef et fournir questionnaire spécifique relation frère sœur;0;1;2;3;4;5;6;7;8;9;10
+Entre 0 et 10, en sachant que 0 est nul et que 10 est parfait. Quelle note mettez-vous au comportement de votre frère/demi-frère/sœur/demi-sœur/ par rapport à vous ?;Choix;Si 0, 1, 2 ou 3, récupérer le prénom correspondant (…) et fournir le questionnaire spécifique relation frère / sœur / demi-frère / demi-sœur ;0;1;2;3;4;5;6;7;8;9;10
+As-tu des enfants ?;Choix;Si non, question90, si oui, ne pas mettre question 90;oui ;non 
+Si non, es-tu en paix avec le fait de ne pas en avoir ? ;Choix;Si non ou plutôt non alors questionnaire spécifique absence d’enfant;non;plutôt non;plutôt oui ;oui 
+Y a-t-il eu d’autres grossesses ? (avortement, fausses couches, pertes…);Choix;Si oui alors question ligne 88;oui ;non
+Si oui, es-tu en paix avec cela ? ;Choix;Si non ou plutôt non alors questionnaire spécifique avortement / fausses couches;non;plutôt non;plutôt oui ;oui 
+Si oui, combien ?;Choix;;0;1;2;3;4;5;6;7;8;9;10
+Garçon Si oui alors question 95 à 103 si non question 104 ( on passe aux filles);Nonoui ;non
+Quels sont leurs prénoms ?;Non
+Garçon 1 ;Non
+Garçon 2 ;Non;Permettre autant de prénoms que nécessaire 
+;NOn
+Si tu devais évaluer la qualité de leur relation entre 0 et 10, 0 étant catastrophique et 10 étant excellente, quelle note mettrais-tu à la relation de ton ou tes garçons ?;Choix;Si 0, 1, 2 ou 3, récupérer le prénom correspondant (D69,70…) et fournir le questionnaire spécifique relation enfants ;0;1;2;3;4;5;6;7;8;9;10
+Entre 0 et 10, en sachant que 0 est nul et que 10 est parfait. Quelle note mettez-vous au comportement de votre garçon par rapport à vous ? ;Choix;Si 0, 1, 2 ou 3, récupérer le prénom correspondant (L95) et fournir le questionnaire spécifique relation enfant;0;1;2;3;4;5;6;7;8;9;10
+Réaliser la même chose avec les filles ;refaire l'ensemble des questions (96 à 102)
+Tes enfants sont-ils tous vivants ? Si non alors question suivante;Choix;;oui ;non
+Lesquels sont décédés ?;ChoixMult;Faire défiler garçon 1, garçon 2… et fille 1,fille 2…
+Son décès correspond-il avec l’arrivée de ton problème ? (à 2 ans près);Choix;Si oui, récupérer le prénom de l’enfant correspondant (fille 1, 2, 3… ou garçon) dans les mots clefs puis fournir questionnaire spécifique enfant décédé;oui;non
+Au moment où tout a commencé ;Non
+As-tu été confronté à un décès ou une maladie ? ;Choix;Si oui alors question 112;oui ;non 
+Est-ce quelqu’un de ta famille ?;Choix; Si non 113, si oui 115;oui ;non
+Est-ce toi-même ? ;Choix;Si oui, questionnaire spécifique maladie du sujet et récupérer prénom du sujet dans les mots clefs Ligne 3;oui ;non 
+Si non, quel est son prénom ?;Text;Récupérer le prénom L114 si non, puis questionnaire spécifique mort malade ;prénoms de fille;prénoms de garçon;prénoms de fille
+Si oui, de qui s’agit-il ?;Choix;récupéré l'appélation choisie sauf si autre alors récupéré prénom L114;papa;maman;frère ;sœur;tante ;oncle;papy;mamy;enfant;beaux-enfants ;autre
+Tes enfants sont-ils en couple ? Si oui alors question suivante;Choix;;oui;non
+Si oui ;Non
+Comment s’appellent tes beaux-fils / belles-filles ?;Text;Mettre autant de lignes que d’enfants prénoms de fille, prénoms de garçon 
+Si tu devais évaluer la qualité de ta relation avec eux entre 0 et 10, 0 étant catastrophique et 10 étant excellente, quelle note mettrais-tu à la relation ?;Choix;Si 0, 1, 2 ou 3, récupérer le prénom correspondant (Ligne 122) et fournir le questionnaire spécifique relation beaux-enfants;0;1;2;3;4;5;6;7;8;9;10
+Entre 0 et 10, en sachant que 0 est nul et que 10 est parfait. Quelle note mettez-vous au comportement de votre beau-fils/belle-fille par rapport à vous ?;Choix; Si 0, 1, 2 ou 3, récupérer le prénom correspondant (L122) et fournir le questionnaire spécifique relation beau-fils/belle-fille;0;1;2;3;4;5;6;7;8;9;10

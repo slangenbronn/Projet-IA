@@ -1,0 +1,8 @@
+Question;Type de choix de reponse (case a cocher, choix multiple ...);R‚ponses possible;Questions suivantes
+Nom ;Texte
+Prénom;Texte
+Age;Texte
+Profession;Texte
+Choix du probleme;Liste;"peurs / angoisses;douleurs;stress / fatigue / troubles de l'attention;traumatisme / separtion / deuil;depression / solitude;manque de confiance;addiction / tabac;troubles alimentaires / perte de poids / troubles digestif;troubles du sommeil;troubles cuntanes;phobies"
+Depuis combien de temps date ton probleme ?;Liste;"0 a 5 ans;5 a 10 ans;10 a 15 ans;15 a 20 ans;20 a 25 ans;plus de 25 ans"
+Quel age avais-tu a ce moment-la ?;Liste;"0 a 10 ans;10 a 20 ans;20 a 30 ans;30 a 40 ans;40 a 50 ans;50 a 60 ans;plus de 60 ans"
