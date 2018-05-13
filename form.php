@@ -4,6 +4,30 @@
   <meta charset="utf-8">
   <title>Titre de la page</title>
   <link rel="stylesheet" href="style.css">
+  <style typ="text/css">
+  h2 {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+		}
+  input[type=text] {
+  	font-family: "Times New Roman", Times, serif;
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+		}
+		body{
+			background-color: #D3D3D3;
+		}
+		select {
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+    color: white;
+  }
+  </style>
   <script src="script.js"></script>
 </head>
 <body>
@@ -40,6 +64,8 @@ while($tab=fgetcsv($fic,1024,';'))
 }
 
 ?>
+
+
 
 </body>
 </html>	
