@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <title>Titre de la page</title>
   <link rel="stylesheet" href="style.css">
-  <style typ="text/css">
+  <style type="text/css">
   h2 {
     color: black;
     font-family: "Times New Roman", Times, serif;
+    text-align: center;
 		}
   input[type=text] {
   	font-family: "Times New Roman", Times, serif;
